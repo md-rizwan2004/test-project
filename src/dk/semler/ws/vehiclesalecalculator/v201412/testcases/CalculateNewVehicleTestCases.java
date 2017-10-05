@@ -194,20 +194,27 @@ public class CalculateNewVehicleTestCases {
 
 	@Test
 	public void PassatVanHybridInclTax() {
-		collector.checkThat("expectedsalespriceincltaxexclvat",new BigDecimal(expectedsalespriceincltaxexclvat).setScale(2), 
-				IsEqual.equalTo(responseMessage.getRESPONSE().getCALCULATION().getSALESPRICE().getINCLTAXEXCLVAT().setScale(2)));
-		collector.checkThat("expectedtaxexclregulation",new BigDecimal(expectedtaxexclregulation).setScale(2),
-				IsEqual.equalTo(responseMessage.getRESPONSE().getCALCULATION().getTAXEXCLREGULATIONS().setScale(2)));
-		collector.checkThat("expectedsalespriceincltaxinclvat",new BigDecimal(expectedsalespriceincltaxinclvat).setScale(2), 
-				IsEqual.equalTo(responseMessage.getRESPONSE().getCALCULATION().getSALESPRICE().getINCLTAXINCLVAT().setScale(2)));
-		collector.checkThat("expecteddealermargingexclequipmentincltaxexclvat",new BigDecimal(expecteddealermargingexclequipmentincltaxexclvat).setScale(2), 
-				IsEqual.equalTo(responseMessage.getRESPONSE().getCALCULATION().getDEALERMARGINEXCLEQUIPMENT().getEXCLTAXEXCLVAT().setScale(2)));
-		collector.checkThat("expectedgrandtotalpricevat",new BigDecimal(expectedgrandtotalpricevat).setScale(2), 
-				IsEqual.equalTo(responseMessage.getRESPONSE().getCALCULATION().getGRANDTOTALPRICE().getVAT().setScale(2)));
-		collector.checkThat("expectedgrandtotalpriceinclvat",new BigDecimal(expectedgrandtotalpriceinclvat).setScale(2), 
-				IsEqual.equalTo(responseMessage.getRESPONSE().getCALCULATION().getGRANDTOTALPRICE().getINCLTAXINCLVAT().setScale(2)));
-		collector.checkThat("expectedgrandtotalpriceexclvat",new BigDecimal(expectedgrandtotalpriceexclvat).setScale(2), 
-				IsEqual.equalTo(responseMessage.getRESPONSE().getCALCULATION().getGRANDTOTALPRICE().getINCLTAXEXCLVAT().setScale(2)));
+		collector.checkThat("expectedsalespriceincltaxexclvat",
+				responseMessage.getRESPONSE().getCALCULATION().getSALESPRICE().getINCLTAXEXCLVAT().setScale(2),
+				IsEqual.equalTo(new BigDecimal(expectedsalespriceincltaxexclvat).setScale(2)));
+		collector.checkThat("expectedtaxexclregulation",
+				responseMessage.getRESPONSE().getCALCULATION().getTAXEXCLREGULATIONS().setScale(2),
+				IsEqual.equalTo(new BigDecimal(expectedtaxexclregulation).setScale(2)));
+		collector.checkThat("expectedsalespriceincltaxinclvat",
+				responseMessage.getRESPONSE().getCALCULATION().getSALESPRICE().getINCLTAXINCLVAT().setScale(2),
+				IsEqual.equalTo(new BigDecimal(expectedsalespriceincltaxinclvat).setScale(2)));
+		collector.checkThat("expecteddealermargingexclequipmentincltaxexclvat",
+				responseMessage.getRESPONSE().getCALCULATION().getDEALERMARGINEXCLEQUIPMENT().getEXCLTAXEXCLVAT().setScale(2),
+				IsEqual.equalTo(new BigDecimal(expecteddealermargingexclequipmentincltaxexclvat).setScale(2)));
+		collector.checkThat("expectedgrandtotalpricevat",
+				responseMessage.getRESPONSE().getCALCULATION().getGRANDTOTALPRICE().getVAT().setScale(2),
+				IsEqual.equalTo(new BigDecimal(expectedgrandtotalpricevat).setScale(2)));
+		collector.checkThat("expectedgrandtotalpriceinclvat",
+				responseMessage.getRESPONSE().getCALCULATION().getGRANDTOTALPRICE().getINCLTAXINCLVAT().setScale(2),
+				IsEqual.equalTo(new BigDecimal(expectedgrandtotalpriceinclvat).setScale(2)));
+		collector.checkThat("expectedgrandtotalpriceexclvat",
+				responseMessage.getRESPONSE().getCALCULATION().getGRANDTOTALPRICE().getINCLTAXEXCLVAT().setScale(2),
+				IsEqual.equalTo(new BigDecimal(expectedgrandtotalpriceexclvat).setScale(2)));
 		
 		/*assertEquals("expectedtaxexclregulation",new BigDecimal(expectedtaxexclregulation).setScale(2), 
 				responseMessage.getRESPONSE().getCALCULATION().getTAXEXCLREGULATIONS().setScale(2));
