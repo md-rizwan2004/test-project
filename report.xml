@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="5" hostname="nb-sabu1" name="dk.semler.ws.vehiclesalecalculator.v201412.testsuite.VehicleSaleCalculatorSuite" skipped="0" tests="2" time="2.947" timestamp="2017-10-05T08:49:17">
+<testsuite errors="0" failures="1" hostname="nb-sabu1" name="dk.semler.ws.vehiclesalecalculator.v201412.testsuite.VehicleSaleCalculatorSuite" skipped="0" tests="2" time="2.303" timestamp="2017-10-05T09:51:13">
   <properties>
     <property name="ant.project.invoked-targets" value="test" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
@@ -53,7 +53,7 @@
     <property name="user.name" value="mur" />
     <property name="java.class.path" value="D:\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\ant-antlr.jar;D:\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\ant-apache-bcel.jar;D:\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\ant-apache-bsf.jar;D:\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\ant-apache-log4j.jar;D:\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\ant-apache-oro.jar;D:\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\ant-apache-regexp.jar;D:\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\ant-apache-resolver.jar;D:\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\ant-apache-xalan2.jar;D:\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\ant-commons-logging.jar;D:\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\ant-commons-net.jar;D:\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\ant-contrib-1.0b3.jar;D:\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\ant-jai.jar;D:\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\ant-javamail.jar;D:\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\ant-jdepend.jar;D:\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\ant-jmf.jar;D:\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\ant-jsch.jar;D:\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\ant-junit.jar;D:\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\ant-junit4.jar;D:\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\ant-launcher.jar;D:\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\ant-netrexx.jar;D:\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\ant-swing.jar;D:\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\ant-testutil.jar;D:\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\ant-xz.jar;D:\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\ant.jar;D:\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\bsf.jar;D:\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\bsh-2.0b4.jar;D:\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\hamcrest-all-1.3.jar;D:\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1\lib\junit-4.11.jar;C:\ng\eclipse\configuration\org.eclipse.osgi\64\0\.cp\lib\antdebug.jar;C:\ng\eclipse\configuration\org.eclipse.osgi\64\0\.cp\lib\remote.jar;C:\ng\eclipse\configuration\org.eclipse.osgi\65\0\.cp\lib\remoteAnt.jar;C:\ng\jdk\lib\tools.jar;C:\ng\eclipse\plugins\org.eclipse.swt.win32.win32.x86_64_3.103.2.v20150203-1351.jar" />
     <property name="java.vm.specification.version" value="1.8" />
-    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1507193355771 -Declipse.connect.port=52660 -Declipse.pdebuild.home=/C:/ng/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/./ -Declipse.pdebuild.scripts=/C:/ng/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts/ -Declipse.pdebuild.templates=/C:/ng/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/templates/ -Dant.home=D:\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\ng\ws\AntJUnitTest\build.xml" />
+    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1507197071552 -Declipse.connect.port=53069 -Declipse.pdebuild.home=/C:/ng/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/./ -Declipse.pdebuild.scripts=/C:/ng/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts/ -Declipse.pdebuild.templates=/C:/ng/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/templates/ -Dant.home=D:\Software\apache-ant-1.10.1-bin\apache-ant-1.10.1 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\ng\ws\AntJUnitTest\build.xml" />
     <property name="sun.arch.data.model" value="64" />
     <property name="java.home" value="C:\ng\jdk\jre" />
     <property name="java.specification.vendor" value="Oracle Corporation" />
@@ -71,49 +71,17 @@
     <property name="sun.desktop" value="windows" />
     <property name="sun.cpu.isalist" value="amd64" />
   </properties>
-  <testcase classname="dk.semler.ws.vehiclesalecalculator.v201412.testcases.CalculateNewVehicleTestCases" name="PassatVanHybridInclTax[0]" time="1.831">
-    <failure message="expectedsalespriceincltaxexclvat&#xa;Expected: &lt;249505.00&gt;&#xa;     but: was &lt;249990.00&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expectedsalespriceincltaxexclvat
-Expected: &lt;249505.00&gt;
-     but: was &lt;249990.00&gt;
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at dk.semler.ws.vehiclesalecalculator.v201412.testcases.CalculateNewVehicleTestCases.PassatVanHybridInclTax(Unknown Source)
-	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:452)
-	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:139)
-</failure>
-    <failure message="expectedtaxexclregulation&#xa;Expected: &lt;3606.00&gt;&#xa;     but: was &lt;4091.00&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expectedtaxexclregulation
-Expected: &lt;3606.00&gt;
-     but: was &lt;4091.00&gt;
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at dk.semler.ws.vehiclesalecalculator.v201412.testcases.CalculateNewVehicleTestCases.PassatVanHybridInclTax(Unknown Source)
-	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:452)
-	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:139)
-</failure>
-    <failure message="expectedsalespriceincltaxinclvat&#xa;Expected: &lt;310979.00&gt;&#xa;     but: was &lt;311464.00&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expectedsalespriceincltaxinclvat
-Expected: &lt;310979.00&gt;
-     but: was &lt;311464.00&gt;
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at dk.semler.ws.vehiclesalecalculator.v201412.testcases.CalculateNewVehicleTestCases.PassatVanHybridInclTax(Unknown Source)
-	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:452)
-	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:139)
-</failure>
-    <failure message="expectedgrandtotalpriceinclvat&#xa;Expected: &lt;310979.00&gt;&#xa;     but: was &lt;311464.00&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expectedgrandtotalpriceinclvat
-Expected: &lt;310979.00&gt;
-     but: was &lt;311464.00&gt;
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at dk.semler.ws.vehiclesalecalculator.v201412.testcases.CalculateNewVehicleTestCases.PassatVanHybridInclTax(Unknown Source)
-	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:452)
-	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:139)
-</failure>
-    <failure message="expectedgrandtotalpriceexclvat&#xa;Expected: &lt;249505.00&gt;&#xa;     but: was &lt;249990.00&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expectedgrandtotalpriceexclvat
-Expected: &lt;249505.00&gt;
-     but: was &lt;249990.00&gt;
+  <testcase classname="dk.semler.ws.vehiclesalecalculator.v201412.testcases.CalculateNewVehicleTestCases" name="PassatVanHybridInclTax[0]" time="1.35">
+    <failure message="expectedtaxexclregulation&#xa;Expected: &lt;4091.00&gt;&#xa;     but: was &lt;3606.00&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expectedtaxexclregulation
+Expected: &lt;4091.00&gt;
+     but: was &lt;3606.00&gt;
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
 	at dk.semler.ws.vehiclesalecalculator.v201412.testcases.CalculateNewVehicleTestCases.PassatVanHybridInclTax(Unknown Source)
 	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:452)
 	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:139)
 </failure>
   </testcase>
-  <testcase classname="dk.semler.ws.vehiclesalecalculator.v201412.testcases.CalculateUsedVehicleTestCases" name="VehicleGrandTotalPriceInclVATShouldMatch[0]" time="0.633" />
+  <testcase classname="dk.semler.ws.vehiclesalecalculator.v201412.testcases.CalculateUsedVehicleTestCases" name="VehicleGrandTotalPriceInclVATShouldMatch[0]" time="0.416" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
